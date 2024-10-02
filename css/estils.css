@@ -1,43 +1,87 @@
 body {
-    margin: 0;
-    background-color: rgb(60, 60, 130);
-  }
-  .header {
-    width: 100%;
-    margin: 0;
+  margin: 0;
+  background-color: rgb(60, 60, 130);
+}
+.header {
+  width: 100%;
+  margin: 0;
+  font-weight: bold;
+  font-family: Arial;
+  } 
+  
+ .flex-container1 {
+  display: flex;
+  width: 100%;
+  position: fixed;
+}
+ a {
+  text-decoration: none;
+  color: inherit;
+ }
+.active {
+  background-color: #2c334f;
+  color: white;
+  width: 100%;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+  border-width: 3px;
+  border-color: white;
+  border-style: solid;
+}
+
+.active:hover {
+  background-color:  rgb(255, 255, 255);
+  color: black;
+}
+.menu:hover {
+  background-color:  rgb(30, 33, 83);
+  color: rgb(255, 255, 255);
+}
+ .menu {
+  background-color: rgb(89, 164, 229);
+  color: rgb(255, 255, 255);
+  width: 100%;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+  border-width: 3px;
+  border-color: white;
+  border-style: solid;
+}
+
+
+  .flex-container2 {
+    display: flex;
     font-weight: bold;
     font-family: Arial;
-    } 
-  ul {
-    list-style-type: none;
-    font-family: 'Franklin Gothic Medium';
-    margin: 0;
-    overflow: hidden;
-    padding: 0;   
-  }
-  li {
-    float: left;
-    width: 25%;
-    background-color: rgb(89, 164, 229);
-  }
-  
-  li a {
-    display: block;
     color: white;
+  }
+  
+  .blocesquerra1{
+    width: 39.9%;
     text-align: center;
-    padding: 10%;
-    font-size: 25px;
-    text-decoration: none;
+    line-height: 50px;
+    font-size: 28px;
+    font-weight: bold;
+    padding-bottom: 200px;
+    border-width: 3px;
+    border-color: white;
+    border-style: solid;
+
+  }
+  .foto {
+    margin-top: 7%;
+    border-radius: 40%;
+    border: 5px solid  white;
+  }
+  .blocdreta1 {
+    width: 60%;
+    text-align: center;
+    line-height: 100px;
+    font-size: 35px;
+    border-width: 3px;
+    border-color: white;
+    border-style: solid;
   }
   
-  li a:hover {
-    background-color: rgb(136, 223, 243);
-  }
-  
-  .active {
-    background-color:  rgb(109, 106, 153);
-  }
-  .active:hover {
-    background-color:  rgb(255, 255, 255);
-    color: black;
-  }
