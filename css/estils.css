@@ -56,15 +56,15 @@ body {
     font-weight: bold;
     font-family: Arial;
     color: white;
+    width: 100%;
   }
   
   .blocesquerra1{
     width: 39.9%;
     text-align: center;
-    line-height: 50px;
-    font-size: 28px;
+    line-height: 45px;
+    font-size: 26px;
     font-weight: bold;
-    padding-bottom: 200px;
     border-width: 3px;
     border-color: white;
     border-style: solid;
@@ -74,6 +74,15 @@ body {
     margin-top: 7%;
     border-radius: 40%;
     border: 5px solid  white;
+    width: 150px;
+    float: left;
+    margin-left: 40px;
+  }
+  hr {
+    border: 3px solid white;
+  }
+  ul {
+    text-align: left;
   }
   .blocdreta1 {
     width: 60%;
@@ -84,4 +93,12 @@ body {
     border-color: white;
     border-style: solid;
   }
-  
+  .footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 20px;
+    background-color: rgb(30, 33, 83);
+    color: white;
+    text-align: center;
+ }
