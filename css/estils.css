@@ -50,7 +50,6 @@ body {
   border-style: solid;
 }
 
-
   .flex-container2 {
     display: flex;
     font-weight: bold;
@@ -62,7 +61,7 @@ body {
   .blocesquerra1{
     width: 39.9%;
     text-align: center;
-    line-height: 45px;
+    line-height: 40px;
     font-size: 26px;
     font-weight: bold;
     border-width: 3px;
@@ -70,7 +69,7 @@ body {
     border-style: solid;
 
   }
-  .foto {
+  .fotoyo {
     margin-top: 7%;
     border-radius: 40%;
     border: 5px solid  white;
@@ -102,3 +101,28 @@ body {
     color: white;
     text-align: center;
  }
+ @media only screen and (max-width: 450px) {
+  /* For tablets: */
+  .header {font-size: 11px;}
+  .flex-container1 {font-size: 11px;
+  }
+  .active {font-size: 11px;}
+  .active:hover {font-size: 11px;}
+  .menu {font-size: 11px;}
+  .menu:hover {font-size: 11px;}
+  .flex-container1 {font-size: 11px;}
+  .flex-container2 {font-size: 11px;}
+  .blocdreta1 {font-size: 11px;
+    line-height: 33px;
+    width: 60%;}                            
+  .blocesquerra1 {font-size: 11px;
+    line-height: 26px;
+    width: 40%;}
+  .fotoyo {width: 100px;
+  margin-left: 20px;
+  }
+  .footer {width: 90%;
+    }
+    h2 {margin-top: 110px;
+    }
+}  
