@@ -96,7 +96,6 @@ body {
   .footer {
     left: 0;
     bottom: 0;
-    width: 100%;
     padding: 20px;
     background-color: rgb(30, 33, 83);
     color: white;
@@ -122,7 +121,7 @@ body {
   .fotoyo {width: 100px;
   margin-left: 20px;
   }
-  .footer {width: 90%;
+  .footer {
     }
     h2 {margin-top: 110px;
     }
